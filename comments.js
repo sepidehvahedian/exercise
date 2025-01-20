@@ -1,2 +1,4 @@
 const button = document.getElementById("button");
-button.addEventListener("click", () => alert("Button Clicked!"));
+function handler(){
+  alert("Click Button!")
+}
